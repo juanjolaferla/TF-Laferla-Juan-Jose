@@ -90,6 +90,7 @@ h2 {
 }
 .container-news .news {
   border: black solid 2px;
+  border-radius: 15px;
   width: 600px;
   height: 100px;
   justify-content: center;
@@ -100,6 +101,24 @@ h2 {
 input {
   border-radius: 25px;
   text-align: center;
+  border: 2px #17202A solid;
+}
+
+.movile {
+  margin: auto;
+  margin-bottom: 100px;
+  align-items: center;
+  justify-content: center;
+  border: #17202A solid 2px;
+  border-radius: 15px;
+  width: 400px;
+  height: 200px;
+}
+
+.black {
+  width: 300px;
+  margin: 50px;
+  margin-bottom: 100px;
 }
 
 /*Catalogo Man*/
@@ -297,7 +316,7 @@ footer {
     height: 130px;
   }
   .letter {
-    font-size: 10px;
+    font-size: 12px;
   }
   .formulario {
     font-size: 15px;
@@ -319,6 +338,11 @@ footer {
     font-size: 20px;
   }
   .container-us {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  .movile {
     display: none;
   }
 }
