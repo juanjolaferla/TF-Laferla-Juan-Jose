@@ -78,12 +78,17 @@
   
   
   /*Seccion News*/
-  
+  .bgblue{
+   
+    height: 300px;
+  }
   .container-news{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 100px;
+    height: 200px;
+    background-image: linear-gradient(to right,#e7e0d5 ,#c0d2d5,#98c6d1,);
+    margin-top: 100px;
     .news{
     border: black solid 2px;
     border-radius: 15px;
@@ -92,8 +97,8 @@
     justify-content: center;
     padding: 5px;
     font-size: 20px;
-    
-
+    background-color: white;
+    margin: auto;
     }
   }
   input{
@@ -343,6 +348,7 @@
     .container-us{
       display: none;
     }
+    
   }
   @media screen and (min-width: 767px){
     .movile{
